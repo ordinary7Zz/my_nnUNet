@@ -6,7 +6,7 @@ images_subdir="images"
 labels_subdir="masks"
 output_json="./dataset.json"
 
-python generate_dataset_json.py "$dataset_root" \
+python my_scripts/generate_dataset_json.py "$dataset_root" \
   --images-subdir "$images_subdir" \
   --labels-subdir "$labels_subdir" \
   --output-json "$output_json"

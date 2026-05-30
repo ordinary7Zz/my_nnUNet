@@ -1,0 +1,14 @@
+{
+  "channel_names": {
+    "0": "image"
+  },
+  "labels": {
+    "background": 0,
+    "foreground": 1
+  },
+  "numTraining": 4024,
+  "file_ending": ".jpg",
+  "name": "train",
+  "image_file_ending": ".jpg",
+  "label_file_ending": ".jpg"
+}
