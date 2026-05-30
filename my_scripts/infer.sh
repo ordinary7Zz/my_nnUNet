@@ -1,5 +1,2 @@
 #!/usr/bin/env bash
-set -euo pipefail
-
-script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-python "$script_dir/infer.py"
+python my_scripts/infer.py

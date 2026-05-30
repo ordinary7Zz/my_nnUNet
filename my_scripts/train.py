@@ -16,7 +16,7 @@ from nnunetv2.run.run_training_external import run_training_external_entry
 DATASET = "Dataset101_ThyroidUS"
 CONFIGURATION = "2d"
 FOLD = "0"
-DATASET_JSON = r"/path/to/dataset.json"
+DATASET_JSON = r"/mnt/wangbd8/workspace/ThyroidAgent/Segmentation_Models/my_nnUNet/dataset.json"
 IMAGES_TR = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/train/images"
 LABELS_TR = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/train/masks"
 IMAGES_TS = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/test/images"
