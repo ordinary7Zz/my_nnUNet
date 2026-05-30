@@ -17,9 +17,10 @@ DATASET = "Dataset101_ThyroidUS"
 CONFIGURATION = "2d"
 FOLD = "0"
 DATASET_JSON = r"/path/to/dataset.json"
-IMAGES_TR = r"/path/to/imagesTr"
-LABELS_TR = r"/path/to/labelsTr"
-IMAGES_TS = None
+IMAGES_TR = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/train/images"
+LABELS_TR = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/train/masks"
+IMAGES_TS = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/test/images"
+LABELS_TS = r"/mnt/wangbd8/workspace/DataSets/ThyroidAgent/train_val_test/Superimposed_experiment/dataset_1/test/masks"
 STAGE_MODE = "copy"
 TRAINER = "nnUNetTrainer"
 PLANS = "nnUNetPlans"
@@ -33,7 +34,7 @@ DISABLE_CHECKPOINTING = False
 CLEAN = False
 VERBOSE = False
 NO_PBAR = True
-DEVICE = "cpu"
+DEVICE = "cuda:0"
 EPOCHS = 10
 
 
